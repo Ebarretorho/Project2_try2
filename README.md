@@ -7,6 +7,7 @@ We found three data sources in Kaggle and extracted them into CSV files:
 3.	Michelin Restaurants for restaurant information (broken up into 3 files, one for each star rating) - https://www.kaggle.com/datasets/jackywang529/michelin-restaurants
 As a result, there were 5 total CSV files (Kaggle_Income.csv, us_cities_by_pop.csv, one-star-michelin-restaurants.csv, two-star-michelin-restaurants.csv, and three-star-michelin-restaurants.csv).
 
+
 Data Transformation:
 We used Pandas to insert all the data into dataframes. We combined the three Michelin dataframes into a single dataframe, adding the appropriate star ratings.
 Next, we inspected the regions in our Michelin dataset and realized there was more than United States data. We created a new dataframe that filtered to only United States data. We exported the consolidated Michelin dataframe for the US only into a new CSV file.
