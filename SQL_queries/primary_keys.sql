@@ -1,0 +1,5 @@
+ALTER TABLE michelin_restaurants ADD COLUMN restaurant_id SERIAL PRIMARY KEY
+
+ALTER TABLE population ADD COLUMN population_id SERIAL PRIMARY KEY
+
+ALTER TABLE income ADD COLUMN id SERIAL PRIMARY KEY
